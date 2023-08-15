@@ -1,0 +1,106 @@
+.footer {
+  background: white;
+  padding: 30px 0px;
+  font-family: "Play", sans-serif;
+  text-align: center;
+}
+
+.footer .row {
+  width: 100%;
+  margin: 1% 0%;
+  padding: 0.6% 0%;
+  color: gray;
+  font-size: 0.8em;
+}
+
+.footer .row a {
+  all: unset;
+  text-decoration: none;
+  color: gray;
+  transition: 0.5s;
+}
+
+.footer .row a:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.footer .row ul {
+  width: 100%;
+}
+
+.footer .row ul li {
+  display: inline-block;
+  margin: 0px 30px;
+}
+
+.footer .row a i {
+  font-size: 10em;
+  margin: 0% 1%;
+}
+
+.heart {
+  width: 1em;
+}
+
+.icons {
+  height: 2em;
+  width: 2em;
+}
+
+/* MOBILE DESIGN */
+
+@media all and (max-width: 480px) {
+  .footer .row {
+    width: 100vw;
+    margin: 1%;
+    color: black;
+    font-size: 1em;
+    text-align: center;
+  }
+
+  .footer .row a {
+    color: black;
+    text-align: center;
+    margin: 0.7em;
+  }
+
+  .footer .row a:hover {
+    color: black;
+    cursor: pointer;
+  }
+}
+
+/* TABLET DESIGN */
+
+@media all and (min-width: 481px) and (max-width: 768px) {
+  .footer .row {
+    width: 100vw;
+    margin: 1%;
+    color: black;
+    font-size: 1em;
+    text-align: center;
+  }
+
+  .footer .row a {
+    color: black;
+    text-align: center;
+    margin: 0.7em;
+  }
+
+  .footer .row a:hover {
+    color: black;
+    cursor: pointer;
+  }
+
+  .footer .row ul {
+    width: 100vw;
+  }
+
+  .footer .row ul li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px 30px;
+  }
+}

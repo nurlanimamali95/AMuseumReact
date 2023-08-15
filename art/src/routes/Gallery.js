@@ -1,6 +1,5 @@
 import React from "react";
 import "./Gallery.css";
-import "animate.css";
 import background from "../assets/gallery4.jpg";
 import useImageData from "../components/useImageData";
 

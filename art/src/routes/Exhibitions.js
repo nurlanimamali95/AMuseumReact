@@ -4,7 +4,7 @@ import video from "../assets/video-about-1.mp4";
 import useExhibitionData from "../components/useExhibitionData";
 
 const Exhibitions = () => {
-  const initialApiKey = process.env.REACT_APP_API_KEY;;
+  const initialApiKey = "6e58a735-ded2-493a-82ba-38052969edb3";
   const {
     data,
     handleSearch,

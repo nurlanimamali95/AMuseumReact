@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 const useApiData = (endpoint, queryParams = "") => {
-  const apiKey = process.env.REACT_APP_API_KEY;
+  const apiKey = "6e58a735-ded2-493a-82ba-38052969edb3";
   const apiUrl = `https://api.harvardartmuseums.org/${endpoint}?apikey=${apiKey}${queryParams}`;
   const [data, setData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);

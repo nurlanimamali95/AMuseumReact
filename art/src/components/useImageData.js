@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 const useImageData = (imagesPerPage) => {
-  const apiKey = process.env.REACT_APP_API_KEY;
+  const apiKey = "6e58a735-ded2-493a-82ba-38052969edb3";
   const [images, setImages] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPages, setTotalPages] = useState(0);
